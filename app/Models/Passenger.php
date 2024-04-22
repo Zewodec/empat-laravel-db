@@ -12,6 +12,6 @@ class Passenger extends Model
 
     public function reservations()
     {
-        return $this->hasMany('App\Reservation');
+        return $this->belongsToMany('App\Reservation');
     }
 }

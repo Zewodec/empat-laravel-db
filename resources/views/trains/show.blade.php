@@ -15,7 +15,8 @@
                 <strong>Train:</strong> {{ $train->name }}
             </div>
             <div>
-                <strong>Route ID:</strong> {{ $train->route_id }}
+                <strong>route_id:</strong> {{ $train->route_id }}
+                <a href="{{ route('routes.show', $train->route_id) }}" class="text-blue-500">View Route</a>
             </div>
             <!-- Add more details as needed -->
         </div>

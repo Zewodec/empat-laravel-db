@@ -26,7 +26,7 @@
                     <td class="border px-4 py-2"><strong>Contact Info:</strong></td>
                     <td class="border px-4 py-2">{{ $passenger->contact_info }}</td>
                 </tr>
-                <!-- You can add more details here -->
+
             </table>
         </div>
     </div>

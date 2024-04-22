@@ -14,10 +14,6 @@
             <div>
                 <strong>Route:</strong> {{ $route->name }}
             </div>
-            <div>
-                <strong>Description:</strong> {{ $route->description }}
-            </div>
-            <!-- Add more details as needed -->
         </div>
     </div>
 </div>

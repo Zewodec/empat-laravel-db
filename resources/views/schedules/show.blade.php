@@ -15,9 +15,18 @@
                 <strong>Schedule ID:</strong> {{ $schedule->id }}
             </div>
             <div>
-                <strong>Departure Time:</strong> {{ $schedule->departure_time }}
+                <strong>train_id:</strong> {{ $schedule->train_id }}
             </div>
-            <!-- Add more details as needed -->
+            <div>
+                <strong>station_id:</strong> {{ $schedule->station_id }}
+            </div>
+            <div>
+                <strong>time_arrive:</strong> {{ $schedule->time_arrive }}
+            </div>
+            <div>
+                <strong>Departure Time:</strong> {{ $schedule->time_departure }}
+            </div>
+
         </div>
     </div>
 </div>

@@ -17,7 +17,7 @@
             <div>
                 <strong>Location:</strong> {{ $station->geo_location }}
             </div>
-            <!-- Add more details as needed -->
+
         </div>
     </div>
 </div>

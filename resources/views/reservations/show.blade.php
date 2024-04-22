@@ -17,7 +17,17 @@
             <div>
                 <strong>Status:</strong> {{ $reservation->reservation_status }}
             </div>
-            <!-- Add more details as needed -->
+            <div>
+                <strong>seat_number:</strong> {{ $reservation->seat_number }}
+            </div>
+            <div>
+                <strong>passenger_id:</strong> {{ $reservation->passenger_id }}
+            </div>
+            <div>
+                <strong>train_id:</strong> {{ $reservation->train_id }}
+            </div>
+
+
         </div>
     </div>
 </div>
